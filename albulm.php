@@ -150,4 +150,10 @@ require_once "header.php";
 	});
 	wall.fitWidth();
 	$(window).trigger("resize");
+
+	$("img").one("load", function() {
+	  wall.fitWidth();
+	}).each(function() {
+	  if(this.complete) $(this).load();
+	});
 </script>

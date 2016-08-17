@@ -10,6 +10,8 @@
 /**
  * Normalize
  */
+@import "https://fonts.googleapis.com/css?family=Playfair+Display";
+@import "https://fonts.googleapis.com/css?family=EB+Garamond";
 html, body {
   width: 100%;
   height: 100%;
@@ -394,13 +396,13 @@ textarea {
   font-family: ProximaNovaAltLight;
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Light.otf"); }
 body {
-  font-family: ProximaNovaAltLight; }
+  font-family: 'EB Garmond'; }
 
 p {
   line-height: 26px;
   font-size: 18px;
   padding-top: 0px;
-  font-family: ProximaNovaAltLight; }
+  font-family: 'Playfair Display'; }
 
 a:hover {
   text-decoration: none;

@@ -7,6 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/dropzone.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="author" content="Peter Veerman">
+	<meta name="keywords" content="photography,arcadia,michelle hu,portfolio">
+	<meta name="description" content="Portfolio website of Michelle Hu's various photography projects.">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 </head>
 <body>

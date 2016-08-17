@@ -78,12 +78,13 @@ require_once "header.php";
 			<input type="text" name="search" placeholder="Search" class="text-box-outline col-xs-8">
 			<a class="col-xs-4 btn-flat-grey-inv-inline fa fa-search"></a>
 		</div>
-		Sort by:
-		<select name="sort-option" class="text-box-outline">
-			<option value="1">Newest</option>
-			<option value="1">Oldest</option>
-			<option value="1">Most Popular</option>
-		</select>
+		<div class="clear-fix">
+			<select name="sort-option" class="text-box-outline">
+				<option value="1">Newest</option>
+				<option value="1">Oldest</option>
+				<option value="1">Most Popular</option>
+			</select>
+		</div>
 	</div>
 </div>
 
