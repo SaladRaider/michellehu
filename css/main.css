@@ -661,10 +661,10 @@ a:active {
   repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 300px;
   text-align: center; }
   .photo-card div {
-    line-height: 498px;
+    line-height: 298px;
     color: transparent;
     background-color: transparent;
     -webkit-transition-timing-function: ease;
@@ -676,6 +676,11 @@ a:active {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s; }
+  .photo-card img {
+    height: 300px;
+    width: auto;
+    opacity: 0;
+    filter: alpha(opacity=0); }
   .photo-card .house-img {
     height: 250px; }
   .photo-card .price-text {

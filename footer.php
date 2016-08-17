@@ -16,6 +16,7 @@
 <script src="js/wow.js"></script>
 <script src="js/youtubebackground.js"></script>
 <script src="js/dropzone.js"></script>
+<script src="js/freewall.js"></script>
 
 <script>
 
