@@ -1,0 +1,28 @@
+body {
+	font-family: ProximaNovaAltLight;
+}
+
+p {
+	line-height: 26px;
+	font-size: $base-font-size;
+	//text-indent: 30px;
+	padding-top: 0px;
+	font-family: ProximaNovaAltLight;
+}
+
+a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: $color-dark-grey;
+	@include transition($btn-trans-time, $btn-ease);
+}
+
+a {
+	@include transition($btn-trans-time, $btn-ease);
+	color: $color-dark-grey;
+}
+
+a:active  {
+	color: $color-dark-grey;
+	text-decoration: none;
+}

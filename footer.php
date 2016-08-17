@@ -1,10 +1,10 @@
 <div class="container-fluid dark-grey-back">
 	<div class="container footer-container">
 		<div class="col-xs-8 text-left-aligned">
-			<?php echo file_get_contents("./txt/footer-text.txt"); ?>
+			Footer
 		</div>
 		<div class="col-xs-4 text-right-aligned font-md">
-			<a href="<?php echo file_get_contents("./txt/facebook-page-link.txt"); ?>" target="_blank"><span class="fa fa-facebook-official" ></span></a> <a href="<?php echo file_get_contents("./txt/linkedin-page-link.txt"); ?>" target="_blank" ><span class="fa fa-linkedin-square"></span></a>
+			<a href="#" target="_blank"><span class="fa fa-facebook-official" ></span></a> <a href="#" target="_blank" ><span class="fa fa-linkedin-square"></span></a>
 		</div>
 	</div>
 </div>

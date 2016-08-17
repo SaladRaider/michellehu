@@ -642,13 +642,13 @@ a:active {
   margin-left: auto;
   margin-right: auto; }
 
-.house-card {
+.photo-card {
   border-color: #fafafa;
   border-style: solid;
   border-width: 1px;
   background-color: #fff;
   color: #222;
-  height: 390px;
+  padding: 0px;
   -webkit-transition-timing-function: ease;
   -moz-transition-timing-function: ease;
   -ms-transition-timing-function: ease;
@@ -657,14 +657,32 @@ a:active {
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
-  .house-card .house-img {
+  transition: 0.5s;
+  repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  text-align: center; }
+  .photo-card div {
+    line-height: 498px;
+    color: transparent;
+    background-color: transparent;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -ms-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  .photo-card .house-img {
     height: 250px; }
-  .house-card .price-text {
+  .photo-card .price-text {
     font-size: 24px; }
 
-.house-card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+.photo-card:hover {
+  cursor: pointer;
   -webkit-transition-timing-function: ease;
   -moz-transition-timing-function: ease;
   -ms-transition-timing-function: ease;
@@ -674,6 +692,18 @@ a:active {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+  .photo-card:hover div {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -ms-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
 
 #video-back {
   position: relative;

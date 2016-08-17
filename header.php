@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ken Joe</title>
+	<title>Michelle Hu</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -25,7 +25,7 @@
 
 				<a href="./" class="logo navbar-brand">
 					<h1>
-						KEN JOE
+						MICHELLE HU
 					</h1>
 				</a>
 			</div>
