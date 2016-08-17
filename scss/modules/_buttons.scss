@@ -22,6 +22,7 @@
 	border-style: solid;
 	text-align: center;
 	margin: $margin-default-v 0px;
+	@include transition($btn-trans-time, $btn-ease);
 }
 
 .btn-flat-dark-grey:hover {
@@ -110,6 +111,32 @@
 	background-color: $color-black;
 }
 
+.btn-flat-grey-inv {
+	@extend .btn-flat-dark-grey;
+	border-color: $color-grey;
+	color: $color-grey;
+	background-color: transparent;
+}
+
+.btn-flat-grey-inv:hover {
+	color: $color-white;
+	background-color: $color-grey;
+}
+
+.btn-flat-grey-inv-inline {
+	@extend .btn-flat-grey-inv;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	line-height: 38px;
+	padding: 1px inherit;
+}
+
+.btn-flat-grey-inv-inline:hover {
+	color: $color-white;
+	background-color: $color-grey;
+}
+
 .btn-group-standard :nth-child(n) {
 	@include border-radius(0px);
 	border-right-width: 0px;
@@ -132,3 +159,12 @@
 	position: absolute;
 	bottom: 44px;
 }
+
+.btn-read-more {
+	color: #3498db;
+}
+
+.btn-read-more:hover {
+	color: #2980b9;
+}
+

@@ -9,7 +9,7 @@ require_once "header.php";
 		<h2>
 			<div class="xxl-text-prop row text-centered">
 				<div class="text-centered wow fadeInUp animation-delay-2 btn-contained v-padding">
-					<a onclick="$('#start-of-content').goTo();" class="btn-flat-white-trans">EXPLORE</a>
+					<a onclick="$('#start-of-content').goTo();" class="btn-flat-white-trans">TAKE A LOOK</a>
 				</div>
 			</div>
 		</h2>

@@ -33,8 +33,8 @@
 			<nav class="navbar-collapse collapse text-centered" id="main-nav">
 				<ul class="nav navbar-nav nav-text-light">
 					<li><a href="./about.php" class="nav-btn navbar-btn">ABOUT</a></li>
-					<li><a href="./listings.php" class="nav-btn navbar-btn">BLOG</a></li>
-					<li><a href="./#contact" class="nav-btn navbar-btn">CONTACT</a></li>
+					<li><a href="./blog.php" class="nav-btn navbar-btn">BLOG</a></li>
+					<li><a href="./contact.php" class="nav-btn navbar-btn">CONTACT</a></li>
 				</ul>
 			</nav>
 		</div>

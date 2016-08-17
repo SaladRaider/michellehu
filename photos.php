@@ -4,7 +4,7 @@ require_once "header.php";
 
 <div id="video-back" ></div>
 
-<div class="container-fluid header-image" data-parallax="scroll" data-image="images/main-slide.jpg">
+<div class="container-fluid header-image-sm" data-parallax="scroll" data-image="images/main-slide.jpg">
 	<div class="container centered banner-text">
 		<h2>
 			<div class="xxl-text-prop row text-centered">
@@ -60,7 +60,7 @@ require_once "header.php";
 
 <script>
 	<!-- go here: http://pixelcog.github.io/parallax.js/ for info -->
-	$('.header-image').parallax({
+	$('.header-image-sm').parallax({
 		imageSrc: 'photos/ARCADIA INVITATIONAL CHOSEN PO/IMG_9909.jpg'
 	});
 </script>

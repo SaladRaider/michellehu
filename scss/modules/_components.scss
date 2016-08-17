@@ -76,6 +76,10 @@
 }
 
 .grey-back {
+	background-color: $color-grey;
+}
+
+.off-white-back {
 	background-color: $color-off-white;
 }
 
@@ -361,3 +365,15 @@
     border-radius: 5px;
     background: white;
 }
+
+.big-banner {
+	height: 400px;
+}
+
+.sub-title-sm {
+	font-style: italic;
+	font-size: $font-size-sm;
+	color: $color-light-grey;
+}
+
+
