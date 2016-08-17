@@ -1,8 +1,10 @@
 .navbar-nav {
 
+	float: none;
+	display: inline-block;
+
 	li {
 		float: none;
-		height: 100px;
 		display: table-cell;
 		vertical-align: middle;
 		@include transition($btn-trans-time, $btn-ease);
@@ -12,6 +14,10 @@
 		}
 	}
 	
+}
+
+.navbar-btn {
+	margin-top: 0px;
 }
 
 .navbar-collapse.in .navbar-nav, .navbar-collapse.collapsing .navbar-nav {
@@ -45,6 +51,14 @@
 
 .navbar-header {
 	height: 100px;
+	display: block;
+	float: none;
+	text-align: center;
+
+	.navbar-brand {
+		float: none;
+	}
+
 	@include transition($btn-trans-time, $btn-ease);
 }
 
@@ -65,8 +79,25 @@
 		color: $color-grey;
 	}
 
+	.navbar-nav {
+		float: right;
+
+		li {
+			float: right;
+		}
+	}
+
+	.navbar-btn {
+		margin-top: 8px;
+	}
+
 	.navbar-header {
 		height: 70px;
+		float: left;
+
+		.navbar-brand {
+			float: left;
+		}
 	}
 
 	li {
@@ -77,7 +108,7 @@
 	.logo h1 {
 		margin-top: 0px;
 		margin-left: 0px;
-		//font-size: $font-size-md;
+		font-size: $font-size-big;
 		color: $color-black;
 		@include transition($btn-trans-time, $btn-ease);
 
@@ -97,8 +128,6 @@
 		//display: inline-block;
 		@include transition($btn-trans-time, $btn-ease);
 	}
-
-	
 }
 
 .logo {
@@ -114,6 +143,7 @@
 		margin-left: 0px;
 		margin-top: 10px;
 		width: 100%;
+		font-size: $font-size-l;
 		//float: left;
 		color: $color-white;
 		@include transition($btn-trans-time, $btn-ease);
@@ -185,8 +215,6 @@
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
-    box-shadow: rgba(255, 255, 255, 0.0980392) 0px 1px 0px inset;
-    border-top: 1px solid transparent;
 }
 
 .navbar-toggle .icon-bar {

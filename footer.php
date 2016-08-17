@@ -1,7 +1,7 @@
 <div class="container-fluid dark-grey-back">
 	<div class="container footer-container">
 		<div class="col-xs-8 text-left-aligned">
-			Footer
+			Michelle Hu &copy; 2016
 		</div>
 		<div class="col-xs-4 text-right-aligned font-md">
 			<a href="#" target="_blank"><span class="fa fa-facebook-official" ></span></a> <a href="#" target="_blank" ><span class="fa fa-linkedin-square"></span></a>

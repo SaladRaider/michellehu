@@ -30,10 +30,10 @@
 				</a>
 			</div>
 
-			<nav class="navbar-collapse collapse" id="main-nav">
-				<ul class="nav navbar-nav navbar-right nav-text-light">
+			<nav class="navbar-collapse collapse text-centered" id="main-nav">
+				<ul class="nav navbar-nav nav-text-light">
 					<li><a href="./#about" class="nav-btn navbar-btn">ABOUT</a></li>
-					<li><a href="./listings.php" class="nav-btn navbar-btn">LISTINGS</a></li>
+					<li><a href="./listings.php" class="nav-btn navbar-btn">BLOG</a></li>
 					<li><a href="./#contact" class="nav-btn navbar-btn">CONTACT</a></li>
 				</ul>
 			</nav>

@@ -68,6 +68,26 @@
 	border-color: $color-white;
 }
 
+.btn-flat-white-trans {
+	background-color: transparent;
+	width: 100%;
+	line-height: 40px;
+	font-size: $base-font-size;
+	color: $color-white;
+	display: inline-block;
+	border-width: $border-width-default;
+	border-color: $color-white;
+	border-style: solid;
+	text-align: center;
+	margin: $margin-default-v 0px;
+}
+
+.btn-flat-white-trans:hover {
+	background-color: $color-white;
+	color: $color-black;
+	border-color: $color-white;
+}
+
 .btn-flat-dark-grey-inv {
 	@extend .btn-flat-dark-grey;
 	color: $color-dark-grey;

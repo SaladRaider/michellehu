@@ -812,6 +812,24 @@ a:active {
   color: #fff;
   border-color: #fff; }
 
+.btn-flat-white-trans {
+  background-color: transparent;
+  width: 100%;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  border-width: 1px;
+  border-color: #fff;
+  border-style: solid;
+  text-align: center;
+  margin: 10px 0px; }
+
+.btn-flat-white-trans:hover {
+  background-color: #fff;
+  color: #222;
+  border-color: #fff; }
+
 .btn-flat-dark-grey-inv {
   color: #666;
   background-color: transparent; }
@@ -859,22 +877,27 @@ a:active {
   position: absolute;
   bottom: 44px; }
 
-.navbar-nav li {
+.navbar-nav {
   float: none;
-  height: 100px;
-  display: table-cell;
-  vertical-align: middle;
-  -webkit-transition-timing-function: ease;
-  -moz-transition-timing-function: ease;
-  -ms-transition-timing-function: ease;
-  -o-transition-timing-function: ease;
-  transition-timing-function: ease;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
-  .navbar-nav li a:hover {
-    background-color: transparent; }
+  display: inline-block; }
+  .navbar-nav li {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -ms-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    .navbar-nav li a:hover {
+      background-color: transparent; }
+
+.navbar-btn {
+  margin-top: 0px; }
 
 .navbar-collapse.in .navbar-nav, .navbar-collapse.collapsing .navbar-nav {
   background-color: white;
@@ -922,6 +945,9 @@ a:active {
 
 .navbar-header {
   height: 100px;
+  display: block;
+  float: none;
+  text-align: center;
   -webkit-transition-timing-function: ease;
   -moz-transition-timing-function: ease;
   -ms-transition-timing-function: ease;
@@ -931,6 +957,8 @@ a:active {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+  .navbar-header .navbar-brand {
+    float: none; }
 
 .navbar-light {
   height: 70px;
@@ -951,8 +979,17 @@ a:active {
     color: #222; }
   .navbar-light a:hover {
     color: #555; }
+  .navbar-light .navbar-nav {
+    float: right; }
+    .navbar-light .navbar-nav li {
+      float: right; }
+  .navbar-light .navbar-btn {
+    margin-top: 8px; }
   .navbar-light .navbar-header {
-    height: 70px; }
+    height: 70px;
+    float: left; }
+    .navbar-light .navbar-header .navbar-brand {
+      float: left; }
   .navbar-light li {
     height: 70px;
     -webkit-transition-timing-function: ease;
@@ -967,6 +1004,7 @@ a:active {
   .navbar-light .logo h1 {
     margin-top: 0px;
     margin-left: 0px;
+    font-size: 36px;
     color: #222;
     -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
@@ -1017,6 +1055,7 @@ a:active {
   margin-left: 0px;
   margin-top: 10px;
   width: 100%;
+  font-size: 48px;
   color: #fff;
   -webkit-transition-timing-function: ease;
   -moz-transition-timing-function: ease;
@@ -1091,9 +1130,7 @@ a:active {
   margin-top: -1px;
   padding-right: 15px;
   padding-left: 15px;
-  overflow-x: visible;
-  box-shadow: rgba(255, 255, 255, 0.09804) 0px 1px 0px inset;
-  border-top: 1px solid transparent; }
+  overflow-x: visible; }
 
 .navbar-toggle .icon-bar {
   background-color: #FFF; }
